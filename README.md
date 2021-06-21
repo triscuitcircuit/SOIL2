@@ -1,7 +1,6 @@
 Simple OpenGL Image Library 2 ![SOIL2](https://web.ensoft.dev/soil2/soil2-logo.svg)
 =============================
-
-[![build status](https://img.shields.io/github/workflow/status/SpartanJ/SOIL2/build)](https://github.com/SpartanJ/SOIL2/actions?query=workflow%3Abuild)
+This is a fork of [SOIL2](https://github.com/SpartanJ/SOIL2) with CMAKE added for my own project. The Orignal source of the CMAKE was from [Jacob-Tate](https://github.com/Jacob-Tate/soil2-cmake) with some changes made
 
 **Introduction:**
 --------------
