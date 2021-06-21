@@ -24,6 +24,7 @@ set(SOIL2_HEADERS
         ${CMAKE_CURRENT_SOURCE_DIR}/src/SOIL2/stbi_pvr.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/SOIL2/stbi_pvr_c.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/common/common.hpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/SOIL2/wfETC.h
         )
 
 set(SOIL2_SRC
@@ -31,6 +32,7 @@ set(SOIL2_SRC
         ${CMAKE_CURRENT_SOURCE_DIR}/src/SOIL2/image_helper.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/SOIL2/SOIL2.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/common/common.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/SOIL2/wfETC.c
         )
 
 add_library( soil2 ${SOIL2_HEADERS} ${SOIL2_SRC} )
